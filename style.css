@@ -1,15 +1,18 @@
-*{
+/* Reset default margin, padding, and box-sizing for all elements */
+* {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
     box-sizing: border-box;
 }
 
-body{
+/* Body styling */
+body {
     background: #222;
 }
 
-.card{
+/* Styling for the main card container */
+.card {
     width: 90%;
     max-width: 470px;
     background: linear-gradient(130deg, #00feba, #511be6);
@@ -20,12 +23,14 @@ body{
     text-align: center;
 }
 
+/* Styling for the application name */
 .name {
     font-size: 24px;
     font-weight: 500;
     margin-bottom: 24px;
-
 }
+
+/* Styling for the search bar */
 .search {
     width: 100%;
     display: flex;
@@ -33,6 +38,7 @@ body{
     justify-content: space-between;
 }
 
+/* Styling for the search input */
 .search input {
     border: 0;
     outline: 0;
@@ -46,6 +52,7 @@ body{
     font-size: 18px;
 }
 
+/* Styling for the search button */
 .search button {
     border: 0;
     outline: 0;
@@ -56,57 +63,65 @@ body{
     cursor: pointer;
 }
 
+/* Styling for the search button icon */
 .search button img {
     width: 20px;
 }
 
+/* Styling for the weather icon */
 .weather-icon {
     width: 170px;
     margin-top: 30px;
 }
 
-.weather h1{
+/* Styling for the current temperature */
+.weather h1 {
     font-size: 80px;
     font-weight: 500;
 }
 
-.weather h2{
+/* Styling for the city name */
+.weather h2 {
     font-size: 45px;
     font-weight: 400;
     margin-top: -10px;
 }
 
-.details{
+/* Styling for the additional weather details */
+.details {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 0 20px;
     margin-top: 50px;
-
 }
 
-.col{
+/* Styling for each column of weather details */
+.col {
     display: flex;
     align-items: center;
     text-align: left;
-
 }
 
-.col img{
+/* Styling for the icons within each column */
+.col img {
     width: 40px;
     margin-right: 10px;
 }
 
-.humidity, .wind{
+/* Styling for humidity and wind details */
+.humidity,
+.wind {
     font-size: 28px;
     margin-top: -6px;
-
 }
 
+/* Initially hide the weather section */
 .weather {
     display: none;
 }
 
+/* Styling for error messages */
 .error {
     text-align: left;
     margin-left: 16px;
@@ -115,7 +130,8 @@ body{
     display: none;
 }
 
-.made{
+/* Styling for the "Made by" section */
+.made {
     text-align: center;
     margin-top: 50px;
     font-size: 14px;

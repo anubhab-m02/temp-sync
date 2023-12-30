@@ -1,29 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!-- Metadata for character set and viewport -->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Title of the page -->
     <title>Temp Sync</title>
+
+    <!-- Favicon for the website -->
     <link rel="icon" type="image/png" href="/images/clouds.png" />
+
+    <!-- External stylesheet for styling -->
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <!-- Main container for the Temp Sync application -->
     <div class="card">
+
+        <!-- Application name -->
         <div class="name">
             <h1>Temp Sync</h1>
         </div>
+
+        <!-- Search bar for entering location -->
         <div class="search">
             <input type="text" placeholder="Search">
             <button><img src="images/search.png"></button>
         </div>
+
+        <!-- Error message for when the city is not found -->
         <div class="error">
             <p>City not found</p>
         </div>
+
+        <!-- Weather information display -->
         <div class="weather">
             <img src="images/rain.png" class="weather-icon">
             <h1 class="temp">22°C</h1>
             <h2 class="city">London</h2>
             <div class="details">
+
+                <!-- Humidity details -->
                 <div class="col">
                     <img src="images/humidity.png">
                     <div>
@@ -31,6 +49,8 @@
                         <p>Humidity</p>
                     </div>
                 </div>
+
+                <!-- Wind speed details -->
                 <div class="col">
                     <img src="images/wind.png">
                     <div>
@@ -40,10 +60,14 @@
                 </div>
             </div>
         </div>
+
+        <!-- Made by information -->
         <div class="made">
             <p>Made by Anubhab <3 </p>
         </div>
     </div>
+    
+    <!-- JavaScript file for dynamic functionality -->
     <script src="./app.js"></script>
 </body>
 </html>
