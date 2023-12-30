@@ -9,7 +9,6 @@ A sleek and simple weather application built using HTML, CSS, and Vanilla JavaSc
 
 - [Overview](#overview)
 - [Features](#features)
-- [Installation](#installation)
 - [Usage](#usage)
 - [Weather Details](#weather-details)
 - [Contributing](#contributing)
